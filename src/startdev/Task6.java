@@ -5,20 +5,32 @@
  */
 package startdev;
 
+import java.util.Random;
+
 /**
  *
  * @author user
  */
 public class Task6 {
     public void run(){
-        System.out.println("----- Задача 6 ------");
-        System.out.println("Создаем ДВУХМЕРНЫЙ ЗУБЧАТЫЙ массив  из 10х(5,6,7,8,9) ячеек типа int, \nзаполняем его случайными числами и выводим \nего значения в цикле");
-        int myArr[][] = ;
-        for(){
-            for(){
-                
-            }
+         System.out.println(" Task 6");
+        
+        int myArr[][] = new int[10][];
+        
+        Random rand = new Random();
+      
+        for (int x = 0; x < myArr.length; x++) {
+            myArr[x] = new int[(rand.nextInt(9 - 5 + 1) + 5)];
         }
-        System.out.println("----- конец задачи 6 ------");
+        
+        for(int i = 0; i < myArr.length; i++){
+            for(int j = 0; j < myArr[i].length; j++){
+                myArr[i][j] = rand.nextInt(20-0+1)-0;
+                System.out.print(myArr[i][j] + "\t");
+            }
+            System.out.println("");
+        }
+        
+        System.out.println("---Конец программы---");
     }
 }

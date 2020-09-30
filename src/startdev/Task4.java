@@ -34,6 +34,6 @@ public class Task4 {
             System.out.printf("%4d",numbers[i]);
         }
         System.out.printf("%.2f%n",(double)(sum-min-max)/(numbers.length - 2));
-        System.out.println("Конец программы");
+        System.out.println("---Конец программы---");
     }
 }

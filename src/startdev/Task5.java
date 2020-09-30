@@ -11,8 +11,7 @@ package startdev;
  */
 public class Task5 {
     public void run(){
-        System.out.println("----- Задача 5 ------");
-        System.out.println("Создаем ДВУХМЕРНЫЙ массив  из 10х5 ячеек типа int, \nзаполняем его случайными числами и выводим \nего значения в цикле");        
+        System.out.println("----- Задача 5 ------");  
         int[][] a=new int[15][10];
         for (int[] a1 : a) {
             for (int j = 0; j < a1.length; j++) {

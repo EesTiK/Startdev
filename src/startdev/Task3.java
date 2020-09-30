@@ -33,6 +33,6 @@ public class Task3 {
             sum += numbers[i];
             System.out.printf("%4d",numbers[i]);
         }
-        System.out.println("Конец программы");
+            System.out.println("---Конец программы---");
     }
 }
